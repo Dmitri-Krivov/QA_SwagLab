@@ -25,7 +25,6 @@ public class BasePage {
     public void fillTextNum(WebElement element, Integer text){
         element.clear();
         element.sendKeys(String.valueOf(text));
-
     }
 
     public void clickElement(WebElement element){
