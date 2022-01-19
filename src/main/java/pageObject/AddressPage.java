@@ -17,7 +17,6 @@ public class AddressPage extends BasePage{
     By country = By.cssSelector("[name='country']");
     By finish = By.cssSelector("[id='finish']");
 
-
 //    Methods
     public void fillFormAddress(String streetName, Integer streetnumber, String city, String countryOfLive){
         fillStreetName(streetName);

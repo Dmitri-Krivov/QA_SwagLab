@@ -31,9 +31,6 @@ public class AboutPage extends BasePage{
 //    By emailError = By.cssSelector("[id = 'email-error']");
 //    By nextButton = By.cssSelector("#next");
 
-
-
-
     public AboutPage(WebDriver driver) {
         super(driver);
     }
@@ -45,7 +42,6 @@ public class AboutPage extends BasePage{
         fillEmail(email);
         clickNext();
     }
-
 
     public void fillFirstName(String text){
         fillText(firstName, text);
@@ -74,5 +70,4 @@ public class AboutPage extends BasePage{
     public void clickNext(){
         clickElement(nextButton);
     }
-
 }

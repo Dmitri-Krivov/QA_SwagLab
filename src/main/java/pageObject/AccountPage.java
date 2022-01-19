@@ -22,7 +22,6 @@ public class AccountPage extends BasePage{
         clickElement(driver.findElement(beginnerIcon));
         clickElement(driver.findElement(intermediateIcon));
         clickElement(driver.findElement(advancedIcon));
-
     }
 
     public boolean accountPageIsDisplayed(){

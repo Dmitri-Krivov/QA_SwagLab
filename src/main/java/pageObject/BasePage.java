@@ -52,8 +52,4 @@ public class BasePage {
         driver.quit();
     }
 
-
-
-
-
 }
